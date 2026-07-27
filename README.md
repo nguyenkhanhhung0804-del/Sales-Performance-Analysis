@@ -1,6 +1,6 @@
 # Plant Sales Analytics (SQL & Power BI Data Modeling)
 
-This repository contains a comprehensive data analysis project focused on regional plant sales, product performance, and financial reporting. It utilizes a multi-table database (`Plant_DTS.xls`) to extract key business insights using custom **T-SQL** queries and structured data relationship models.
+This repository contains a comprehensive data analysis project focused on regional plant sales, product performance, and financial reporting. It utilizes a multi-table database (`Plant_DTS.xls`) to extract key business insights using custom **SQLite** queries and structured data relationship models.
 
 ---
 
@@ -30,7 +30,7 @@ In addition to SQL extraction, this project features an interactive **Sales Perf
 
 ## 🛠️ SQL Queries & Analytical Tasks
 
-The repository includes curated **SQL/T-SQL scripts** designed to answer critical business performance questions, structured into the following analytical themes:
+The repository includes curated **SQLite scripts** designed to answer critical business performance questions, structured into the following analytical themes:
 
 ### 1. Financial Trends & Growth Analysis
 * **Month-over-Month (MoM) Revenue Growth:** Utilizes window functions (`LAG()`) to calculate sequential monthly growth percentages over time.
@@ -50,7 +50,7 @@ The repository includes curated **SQL/T-SQL scripts** designed to answer critica
 
 ---
 
-## 🚀 Technical Highlights & Key T-SQL Syntax Used
+## 🚀 Technical Highlights & Key SQLite Syntax Used
 
 The queries showcase advanced database and data warehouse concepts:
 * **Common Table Expressions (CTEs):** Structured, clean, and readable subqueries for modular logic.
